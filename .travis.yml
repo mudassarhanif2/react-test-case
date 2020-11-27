@@ -9,7 +9,7 @@ script:
 
 deploy:
   provider: surge
-  skip_cleaner: true
+  skip_cleanup: true
   domain: trashy-duck.surge.sh
   project: ./build/
 
